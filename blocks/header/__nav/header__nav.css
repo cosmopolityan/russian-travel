@@ -1,3 +1,6 @@
 .header__nav {
+  display: flex;
+  column-gap: 18px;
   align-self: end;
+
 }
