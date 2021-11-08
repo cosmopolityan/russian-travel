@@ -15,14 +15,14 @@
 @media screen and (max-width: calc(768px + (48px*2))) {
   .header {
     max-width: calc(100% - (24px*2));
-    /* width: 768px; */
+    width: 768px;
   }
 }
 
 @media screen and (max-width: calc(424px + (24px*2))) {
   .header {
     max-width: calc(100% - 16px*2);
-    /* width: 424px; */
+    width: 424px;
     padding-top: 16px;
   }
 }
