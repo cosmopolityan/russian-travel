@@ -3,7 +3,7 @@
   height: 213px;
 }
 
-@media screen and (max-width: 1280px) {
+/* @media screen and (max-width: 1280px) {
   .photo-grid__item  {
     width: 300px;
     height: 225px;
@@ -24,13 +24,13 @@
     height: 264px;
     gap: 16px;
   }
-}
+} */
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 321px) {
   .photo-grid__item  {
     width: 288px;
     height: 216px;
-    margin-right: 16px;
-    margin-left: 16px;
+    /* margin-right: 16px;
+    margin-left: 16px; */
   }
 }

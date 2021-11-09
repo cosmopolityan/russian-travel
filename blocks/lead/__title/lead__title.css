@@ -19,11 +19,11 @@
   color: #FFFFFF;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 321px) {
   .lead__title {
     font-size: 40px;
     line-height: 44px;
-    /* width: calc(288px + (16px*2)); */
-    padding-bottom: 16px;
+    width: calc(288px + (16px*2));
+    /* padding-bottom: 16px; */
   }
 }

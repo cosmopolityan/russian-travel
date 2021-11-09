@@ -9,7 +9,7 @@
   background-repeat: repeat;
 }
 
-@media screen and (max-width: 1024px) {
+/* @media screen and (max-width: 1024px) {
   .page {
     width: 1024px;
   }
@@ -20,7 +20,7 @@
   .page {
     width: 768px;
   }
-}
+} */
 
 @media screen and (max-width: 321px) {
   .page {
