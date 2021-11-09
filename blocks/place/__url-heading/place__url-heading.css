@@ -15,3 +15,9 @@
 
   color: #AAAAAA;
 }
+
+@media screen and (max-width: 321px) {
+  .place__url-heading {
+    width: 320px;
+  }
+}

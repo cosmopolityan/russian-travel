@@ -23,5 +23,10 @@
   .place {
     grid-template-columns: 1fr;
     row-gap: 32px;
+    margin-bottom: 50px;
+  }
+
+  .place:last-child {
+    margin-bottom: calc(66px - 25px);
   }
 }

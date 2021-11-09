@@ -11,3 +11,11 @@
 
   color: #FFFFFF;
 }
+
+
+@media screen and (max-width: 321px) {
+  .footer__copyright {
+    display: contents;
+
+  }
+}

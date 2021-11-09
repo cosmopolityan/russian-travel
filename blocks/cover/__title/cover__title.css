@@ -15,3 +15,15 @@
 
   color: #FFFFFF;
 }
+
+@media screen and (max-width: 321px) {
+  .cover__title {
+    margin: 0 16px 16px;
+    padding-top: 33px;
+    width: 288px;
+    height: 70px;
+    font-size: 32px;
+    line-height: 35px;
+    text-align: center;
+  }
+}

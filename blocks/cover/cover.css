@@ -30,4 +30,12 @@
   transition: .5s;
 }
 
+@media screen and (max-width: 321px) {
+  .cover {
+    margin: 0;
+    width: 320px;
+    height: 200px;
+  }
+}
+
 

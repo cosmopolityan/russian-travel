@@ -1,10 +1,11 @@
-.places {
-  list-style: none;
-  width: 984px;
+.content {
+  margin: 0;
+  padding: 0;
 }
 
 @media screen and (max-width: 321px) {
-  .places {
+  .content {
     width: 320px;
   }
 }
+
