@@ -6,7 +6,7 @@
   margin: 0 auto;
   padding: 0;
   background-color: #2A2C2F;
-  background-repeat: repeat;
+  /* background-repeat: repeat; */
 }
 
 /* @media screen and (max-width: 1024px) {

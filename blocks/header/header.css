@@ -6,7 +6,7 @@
   max-width: calc(100% - 48px*2);
 }
 
-@media screen and (min-width: 1280px) {
+/* @media screen and (min-width: 1280px) {
   .header {
     padding-bottom: 56px;
   }
@@ -17,12 +17,12 @@
     max-width: calc(100% - (24px*2));
     width: 768px;
   }
-}
+} */
 
 @media screen and (max-width: calc(424px + (24px*2))) {
   .header {
     max-width: calc(100% - (16px*2));
-    /* width: 424px; */
+    /* max-width: 424px; */
     padding-top: 16px;
   }
 }

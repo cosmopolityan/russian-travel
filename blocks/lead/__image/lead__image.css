@@ -2,8 +2,16 @@
   margin: 64px 148px 0 148px;
   /* margin: 0 auto; */
   /* padding-top: 64px; */
-  width: 984px;
-  height: 615px;
+  max-width: 984px;
+  max-height: 615px;
+}
+
+@media screen and (max-width: 320px) {
+  .lead__image {
+    width: 320px;
+    height: 200px;
+    margin: 40px 0 8px;
+  }
 }
 
 /* @media screen and (max-width: 1024px) {
@@ -22,12 +30,12 @@
   }
 } */
 
-@media screen and (max-width: 320px) {
+/* @media screen and (max-width: 321px) {
   .lead__image {
     margin: 40px 0 0 0;
     width: 320px;
     height: 200px;
   }
-}
+} */
 
 

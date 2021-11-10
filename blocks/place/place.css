@@ -1,3 +1,5 @@
+/* Не понимаю, как поправить грид, чтобы он не создавал на 320px горизонтальный скролл. */
+
 .place {
   /* margin: 92px 148px 0 148px;
   width: 984px;
@@ -6,6 +8,19 @@
   grid-template-columns: repeat(2, 1fr);
   gap: 48px 40px;
 }
+
+@media screen and (max-width: 320px) {
+  .place {
+    grid-template-columns: 1fr;
+    row-gap: 32px;
+    margin-bottom: 50px;
+  }
+
+  .place:last-child {
+    margin-bottom: calc(66px - 25px);
+  }
+}
+
 
 /* @media screen and (max-width: 1279px) {
   .place {
@@ -19,14 +34,3 @@
   }
 } */
 
-@media screen and (max-width: 767px) {
-  .place {
-    grid-template-columns: 1fr;
-    row-gap: 32px;
-    margin-bottom: 50px;
-  }
-
-  .place:last-child {
-    margin-bottom: calc(66px - 25px);
-  }
-}
