@@ -3,9 +3,9 @@
   padding: 0;
 }
 
-@media screen and (max-width: 321px) {
+@media screen and (max-width: 426px) {
   .content {
-    width: 320px;
+    width: 100vw;
   }
 }
 

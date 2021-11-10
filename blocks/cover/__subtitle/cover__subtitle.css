@@ -9,21 +9,20 @@
   font-weight: normal;
   font-size: 18px;
   line-height: 22px;
-  /* or 122% */
-
   text-align: center;
 
   color: #FFFFFF;
 }
 
-@media screen and (max-width: 321px) {
+@media screen and (max-width: 426px) {
   .cover__subtitle {
     padding: 0;
     margin: 0 16px;
-    width: 288px;
+    max-width: calc(100vw - (16px*2));
     height: 48px;
     font-size: 14px;
     line-height: 16px;
     text-align: center;
   }
 }
+

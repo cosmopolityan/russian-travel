@@ -1,5 +1,5 @@
 .lead__caption {
-  margin: 8px 0 0 148px;
+  margin: 8px 0 0 0;
   width: 160px; /*Если поставить 158px (как на макете), фраза переносится на 2 строку. */
   height: 14px;
   text-transform: uppercase;
@@ -12,7 +12,7 @@
   color: #FFFFFF;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 426px) {
   .lead__caption {
     margin: 0 0 0 18px;
 
