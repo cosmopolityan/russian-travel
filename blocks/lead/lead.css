@@ -4,9 +4,9 @@
   /* padding: 0 48px; */
 }
 
-/* @media screen and (max-width: calc(768px + 48px*2)) {
+@media screen and (min-width: 1023px) {
   .lead {
-    max-width: 768px;
-    padding: 0;
+    margin-left: 0;
+    margin-right: 0;
   }
-} */
+}

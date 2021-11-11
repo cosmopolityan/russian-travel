@@ -9,17 +9,37 @@
   }
 }
 
-/* @media screen and (max-width: 1024px) {
+@media screen and (min-width: 768px) {
+  .intro {
+    margin: 88px 24px 88px 24px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
   .intro {
     margin: 92px 286px 92px 48px;
+    width: 690px;
+    min-height: 460px;
+  }
+}
+
+@media screen and (min-width: 1025px) {
+  .intro {
+    margin: 92px 286px 92px 48px;
+    width: 690px;
+    min-height: 460px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .intro {
+    margin: 92px 286px 92px 148px;
+    width: 690px;
+    min-height: 460px;
   }
 }
 
 
-@media screen and (max-width: 768px) {
-  .intro {
-    margin: 88px 24px 88px 24px;
-  }
-} */
+
 
 

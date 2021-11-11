@@ -14,17 +14,21 @@
   }
 }
 
-/* @media screen and (min-width: 1280px) {
-  .header {
-    padding-bottom: 56px;
-  }
-}
-
-@media screen and (max-width: calc(768px + (48px*2))) {
+@media screen and (max-width: 769px) {
   .header {
     max-width: calc(100% - (24px*2));
     width: 768px;
   }
-} */
+}
+
+@media screen and (min-width: 1280px) {
+  .header {
+    padding-bottom: 56px;
+    margin-left: 48px;
+    margin-right: 0;
+  }
+}
+
+
 
 

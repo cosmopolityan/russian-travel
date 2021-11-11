@@ -30,10 +30,10 @@
   transition: .5s;
 }
 
-@media screen and (max-width: 426px) {
+@media screen and (max-width: 321px) {
   .cover {
     margin: 0;
-    max-width: 425px;
+    max-width: 320px;
     min-height:  62.5vw;
     background-size: contain;
     background-repeat: no-repeat;
@@ -50,15 +50,50 @@
   }
 }
 
-@media screen and (max-width: 321px) {
+@media screen and (max-width: 426px) {
   .cover {
     margin: 0;
-    max-width: 320px;
+    max-width: 425px;
+    min-height: 62.5vw;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+}
+
+@media screen and (min-width: 767px) {
+  .cover {
+    margin: 0;
+    max-width: 768px;
     min-height:  62.5vw;
     background-size: contain;
     background-repeat: no-repeat;
   }
 }
+
+@media screen and (min-width: 1023px) {
+  .cover {
+    margin: 0;
+    max-width: 1024px;
+    min-height:  62.5vw;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+}
+
+@media screen and (min-width: 1279px) {
+  .cover {
+    margin: 0 0 0 48px;
+    max-width: 1184px;
+    min-height: 740px;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+}
+
+
+
+
+
 
 
 

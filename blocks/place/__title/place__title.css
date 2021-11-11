@@ -20,11 +20,11 @@
 }
 
 
-/* @media screen and (max-width: 769px) {
+@media screen and (max-width: 769px) {
   .place__title {
     font-size: 42px;
     line-height: 46px;
   }
-} */
+}
 
 
