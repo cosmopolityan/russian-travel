@@ -10,8 +10,11 @@
   font-size: 18px;
   line-height: 22px;
 <<<<<<< HEAD
+<<<<<<< HEAD
   /* or 122% */
 
+=======
+>>>>>>> final
 =======
 >>>>>>> final
   text-align: center;
@@ -19,7 +22,10 @@
   color: #FFFFFF;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> final
 
 @media screen and (max-width: 426px) {
   .cover__subtitle {
@@ -68,4 +74,7 @@
     text-align: center;
   }
 }
+<<<<<<< HEAD
+>>>>>>> final
+=======
 >>>>>>> final

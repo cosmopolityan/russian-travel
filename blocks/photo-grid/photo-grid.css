@@ -1,5 +1,6 @@
 .photo-grid {
 <<<<<<< HEAD
+<<<<<<< HEAD
   width: 1184px;
   height: 671px;
   margin: 92px 48px 0 48px;
@@ -8,6 +9,8 @@
   grid-template-rows: repeat(3, 213px);
   grid-gap: 16px;
 =======
+=======
+>>>>>>> final
   display: grid;
   gap: 16px;
 
@@ -50,5 +53,8 @@
     margin-bottom: 92px;
     width: 1184px;
   }
+<<<<<<< HEAD
+>>>>>>> final
+=======
 >>>>>>> final
 }

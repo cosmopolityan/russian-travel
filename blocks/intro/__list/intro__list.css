@@ -3,7 +3,11 @@
   padding-left: 0;
   list-style: none;
 <<<<<<< HEAD
+<<<<<<< HEAD
   width: 690px;
+=======
+  max-width: 690px;
+>>>>>>> final
 =======
   max-width: 690px;
 >>>>>>> final
@@ -17,9 +21,12 @@
   color: #FFFFFF;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 .intro-list>p {
   font-weight: normal;
 =======
+=======
+>>>>>>> final
 
 @media screen and (max-width: 426px) {
   .intro__list {
@@ -40,5 +47,8 @@
     margin-top: 33px;
     min-width: 274px;
   }
+<<<<<<< HEAD
+>>>>>>> final
+=======
 >>>>>>> final
 }

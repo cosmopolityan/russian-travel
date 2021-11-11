@@ -1,8 +1,12 @@
 .intro__text {
   margin: 0;
 <<<<<<< HEAD
+<<<<<<< HEAD
   width: 690px;
   height: 208px;
+=======
+   /*width: 690px; */
+>>>>>>> final
 =======
    /*width: 690px; */
 >>>>>>> final
@@ -12,11 +16,14 @@
   font-weight: normal;
   font-size: 16px;
 <<<<<<< HEAD
+<<<<<<< HEAD
   line-height: 163%;
   /* or 26px */
   color: #FFFFFF;
 }
 =======
+=======
+>>>>>>> final
   line-height: 26px;
   color: #FFFFFF;
 }
@@ -28,4 +35,7 @@
   }
 }
 
+<<<<<<< HEAD
+>>>>>>> final
+=======
 >>>>>>> final
