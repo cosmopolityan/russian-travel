@@ -1,17 +1,7 @@
 .intro__title {
   margin: 0 0 40px 0;
-<<<<<<< HEAD
-<<<<<<< HEAD
-  width: 690px;
-  height: 58px;
-=======
   /* width: 690px;
   height: 58px; */
->>>>>>> final
-=======
-  /* width: 690px;
-  height: 58px; */
->>>>>>> final
 
   font-family: Inter;
   font-style: normal;
@@ -21,11 +11,6 @@
   /* identical to box height, or 107% */
   color: #FFFFFF;
 }
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> final
 
 @media screen and (max-width: 320px) {
   .intro__title {
@@ -38,7 +23,3 @@
      /* width: 251px; */
   }
 }
-<<<<<<< HEAD
->>>>>>> final
-=======
->>>>>>> final
