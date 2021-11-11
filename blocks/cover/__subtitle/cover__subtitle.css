@@ -2,7 +2,7 @@
   margin: 0 412px 245px;
   padding-top: 32px;
   width: 360px;
-  height: 66px;
+  /* height: 66px; */
 
   font-family: Inter;
   font-style: normal;
@@ -19,7 +19,7 @@
     padding: 0;
     margin: 0 16px;
     max-width: calc(100vw - (16px*2));
-    height: 48px;
+    /* height: 48px; */
     font-size: 14px;
     line-height: 16px;
     text-align: center;
@@ -31,7 +31,7 @@
     padding: 0;
     margin: 32px 204px 0 204px;
     max-width: calc(100vw - (16px*2));
-    height: 48px;
+    /* height: 48px; */
     font-size: 18px;
     line-height: 22px;
     text-align: center;
@@ -43,7 +43,7 @@
     padding: 0;
     margin: 32px 332px 0 332px;
     max-width: calc(100vw - (16px*2));
-    height: 48px;
+    /* height: 48px; */
     font-size: 18px;
     line-height: 22px;
     text-align: center;
@@ -55,7 +55,7 @@
     padding: 0;
     margin: 32px 412px 0 412px;
     max-width: calc(100vw - (16px*2));
-    height: 48px;
+    /* height: 48px; */
     font-size: 18px;
     line-height: 22px;
     text-align: center;
