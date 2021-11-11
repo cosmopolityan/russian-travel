@@ -7,7 +7,29 @@
   /* identical to box height, or 114% */
 
   text-align: right;
+<<<<<<< HEAD
   align-self: center;
 
   color: #FFFFFF;
 }
+=======
+  align-self: flex-start;
+
+  color: #FFFFFF;
+}
+
+
+@media screen and (max-width: 425px) {
+  .footer__copyright {
+    display: flex;
+    margin-top: 48px;
+  }
+}
+
+@media screen and (min-width: 767px) {
+  .footer__copyright {
+    display: contents;
+  }
+}
+
+>>>>>>> final

@@ -4,3 +4,52 @@
   justify-content: space-between;
   margin: 92px 48px 24px;
 }
+<<<<<<< HEAD
+=======
+
+@media screen and (max-width: 426px) {
+  .footer {
+    margin: 64px 118px 24px 16px;
+    flex-direction: column;
+    max-width: 186px;
+    max-height: 310px;
+  }
+}
+
+@media screen and (min-width: 767px) {
+  .footer {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin: 88px 24px 24px 24px;
+    flex-direction: row;
+    max-width: 720px;
+    max-height: 18px;
+  }
+}
+
+@media screen and (min-width: 1023px) {
+  .footer {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin: 92px 48px 24px 48px;
+    flex-direction: row;
+    max-width: 928px;
+    max-height: 18px;
+  }
+}
+
+@media screen and (min-width: 1279px) {
+  .footer {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin: 92px 48px 24px 48px;
+    flex-direction: row;
+    max-width: 1184px;
+    max-height: 18px;
+  }
+}
+
+>>>>>>> final

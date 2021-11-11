@@ -1,0 +1,9 @@
+.place__text {
+
+}
+
+@media screen and (max-width: 426px) {
+  .place__text {
+    max-width: 100vw;
+  }
+}

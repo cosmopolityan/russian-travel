@@ -2,7 +2,11 @@
   margin: 33px 442px 0 0;
   padding-left: 0;
   list-style: none;
+<<<<<<< HEAD
   width: 690px;
+=======
+  max-width: 690px;
+>>>>>>> final
   height: 90px;
 
   font-family: Inter;
@@ -12,6 +16,29 @@
   /* or 150% */
   color: #FFFFFF;
 }
+<<<<<<< HEAD
 .intro-list>p {
   font-weight: normal;
+=======
+
+@media screen and (max-width: 426px) {
+  .intro__list {
+    margin: 0;
+    max-width: 425px;
+  }
+}
+
+@media screen and (min-width: 1023px) {
+  .intro__list {
+    margin: 33px 0 0 0;
+    max-width: 690px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .intro__list {
+    margin-top: 33px;
+    min-width: 274px;
+  }
+>>>>>>> final
 }

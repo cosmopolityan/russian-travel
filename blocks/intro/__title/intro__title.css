@@ -1,7 +1,12 @@
 .intro__title {
   margin: 0 0 40px 0;
+<<<<<<< HEAD
   width: 690px;
   height: 58px;
+=======
+  /* width: 690px;
+  height: 58px; */
+>>>>>>> final
 
   font-family: Inter;
   font-style: normal;
@@ -11,3 +16,18 @@
   /* identical to box height, or 107% */
   color: #FFFFFF;
 }
+<<<<<<< HEAD
+=======
+
+@media screen and (max-width: 320px) {
+  .intro__title {
+    font-size: 32px;
+    line-height: 35px;
+    /* Чтобы соответствовало макету
+     "Чего мы там" - на одной строке
+     "не видели?" - на другой, необходимо ширину на уровне минимум: */
+
+     /* width: 251px; */
+  }
+}
+>>>>>>> final

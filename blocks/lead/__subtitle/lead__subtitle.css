@@ -1,16 +1,27 @@
 .lead__subtitle {
-  margin: 32px 320px 0 320px;
-  width: 640px;
-  height: 72px;
+  /* margin: 32px 320px 0 320px; */
+  margin: 0 auto;
+  max-width: 640px;
+  /* min-height: 72px; */
 
   font-family: Inter;
   font-style: normal;
   font-weight: normal;
   font-size: 30px;
-  line-height: 36px;
-  /* or 120% */
-
   text-align: center;
-
   color: #FFFFFF;
+}
+
+@media screen and (max-width: 426px) {
+  .lead__subtitle {
+    font-size: 16px;
+    line-height: 20px;
+    max-width: calc(100% - (18px*2));
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .lead__subtitle {
+    margin-left: 320px;
+  }
 }

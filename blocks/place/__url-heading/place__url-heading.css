@@ -15,3 +15,12 @@
 
   color: #AAAAAA;
 }
+<<<<<<< HEAD
+=======
+
+@media screen and (max-width: 426px) {
+  .place__url-heading {
+    width: 100vw;
+  }
+}
+>>>>>>> final
