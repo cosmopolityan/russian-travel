@@ -4,14 +4,12 @@
   font-weight: normal;
   font-size: 14px;
   line-height: 16px;
-  /* identical to box height, or 114% */
 
   text-align: right;
   align-self: flex-start;
 
   color: #FFFFFF;
 }
-
 
 @media screen and (max-width: 425px) {
   .footer__copyright {

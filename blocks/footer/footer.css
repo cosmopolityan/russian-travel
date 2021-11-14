@@ -10,7 +10,7 @@
     margin: 64px 118px 24px 16px;
     flex-direction: column;
     max-width: 186px;
-    max-height: 310px;
+    /* max-height: 310px; */
   }
 }
 
@@ -22,7 +22,7 @@
     margin: 88px 24px 24px 24px;
     flex-direction: row;
     max-width: 720px;
-    max-height: 18px;
+    /* max-height: 18px; */
   }
 }
 
@@ -34,7 +34,7 @@
     margin: 92px 48px 24px 48px;
     flex-direction: row;
     max-width: 928px;
-    max-height: 18px;
+    /* max-height: 18px; */
   }
 }
 
@@ -46,7 +46,7 @@
     margin: 92px 48px 24px 48px;
     flex-direction: row;
     max-width: 1184px;
-    max-height: 18px;
+    /* max-height: 18px; */
   }
 }
 
