@@ -1,6 +1,6 @@
-.header__nav {
+.header__lang-links {
   display: flex;
   column-gap: 18px;
   align-self: end;
-
+  list-style: none;
 }

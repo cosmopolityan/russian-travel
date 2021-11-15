@@ -2,17 +2,12 @@
   margin: 0 312px;
   padding-top: 245px;
   width: 560px;
-  /* height: 152px; */
-
   font-family: Inter;
   font-style: normal;
   font-weight: 900;
   font-size: 72px;
   line-height: 76px;
-  /* or 106% */
-
   text-align: center;
-
   color: #FFFFFF;
 }
 
@@ -21,22 +16,17 @@
     margin: 0 16px 16px;
     padding-top: 33px;
     max-width: calc(100vw - (16px*2));
-    /* max-height: 70px; */
     font-size: 32px;
     line-height: 35px;
-    text-align: center;
   }
 }
 
 @media screen and (min-width: 767px) {
   .cover__title {
-    margin: 0 104px 104px;
+    margin: 0 104px 0;
     padding-top: 115px;
-    max-width: calc(100vw - (16px*2));
-    max-height: 70px;
     font-size: 72px;
     line-height: 76px;
-    text-align: center;
   }
 }
 
@@ -44,11 +34,6 @@
   .cover__title {
     margin-left: 232px;
     padding-top: 115px;
-    max-width: calc(100vw - (16px*2));
-    max-height: 70px;
-    font-size: 72px;
-    line-height: 76px;
-    text-align: center;
   }
 }
 
@@ -56,11 +41,6 @@
   .cover__title {
     margin-left: 312px;
     padding-top: 245px;
-    max-width: calc(100vw - (16px*2));
-    max-height: 70px;
-    font-size: 72px;
-    line-height: 76px;
-    text-align: center;
   }
 }
 

@@ -19,23 +19,12 @@
   .intro {
     margin: 92px 286px 92px 48px;
     width: 690px;
-    min-height: 460px;
-  }
-}
-
-@media screen and (min-width: 1025px) {
-  .intro {
-    margin: 92px 286px 92px 48px;
-    width: 690px;
-    min-height: 460px;
   }
 }
 
 @media screen and (min-width: 1280px) {
   .intro {
-    margin: 92px 286px 92px 148px;
     width: 690px;
-    min-height: 460px;
   }
 }
 
