@@ -9,15 +9,9 @@
 </head>
 
 <!--
-  Оксана, здравствуйте!
-  Спасибо за ревью и терпение!
-  Постарался исправить все замечения, но, полагаю, что все-таки мог что-то упустить...
-
-  2021-11-17T04:40:15+0000. Mark G. Changelog:
-  1. Добавлен альтернативный шрифт для отображения;
-  2. Контент между брейкпойнтами находится +- по центру;
-  3. Удалось избавиться от горизонтального скролла;
-  4. Сверены отступы по макету.
+  2021-11-18T01:43:15+0000. Mark G. Changelog:
+  1. Удалено свойство position: absolute; у cover__link;
+  2. Переход по ссылке осуществляется при клике в любой области cover.
 -->
 
 <body class="page">
@@ -184,12 +178,14 @@
 
     <!-- COVER -->
     <section class="cover">
-      <a href="https://stampsy.com/na-elektrichkakh-do-baikala" target="_blank" class="cover__link">
-        <h2 class="cover__title">До&nbsp;Байкала &laquo;на&nbsp;собаках&raquo;</h2>
-        <p class="cover__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на
-          электричках.
-        </p>
-      </a>
+      <div class="cover__overlay">
+        <a href="https://stampsy.com/na-elektrichkakh-do-baikala" target="_blank" class="cover__link">
+          <h2 class="cover__title">До&nbsp;Байкала &laquo;на&nbsp;собаках&raquo;</h2>
+          <p class="cover__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на
+            электричках.
+          </p>
+        </a>
+      </div>
     </section>
   </main>
 
