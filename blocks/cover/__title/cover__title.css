@@ -1,8 +1,8 @@
 .cover__title {
-  margin: 0 312px;
-  padding-top: 245px;
+  margin: 0;
   width: 560px;
-  font-family: Inter;
+  max-width: calc(100% - (16px*2));
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 900;
   font-size: 72px;
@@ -11,36 +11,9 @@
   color: #FFFFFF;
 }
 
-@media screen and (max-width: 426px) {
+@media screen and (max-width: 767px) {
   .cover__title {
-    margin: 0 16px 16px;
-    padding-top: 33px;
-    max-width: calc(100vw - (16px*2));
     font-size: 32px;
     line-height: 35px;
   }
 }
-
-@media screen and (min-width: 767px) {
-  .cover__title {
-    margin: 0 104px 0;
-    padding-top: 115px;
-    font-size: 72px;
-    line-height: 76px;
-  }
-}
-
-@media screen and (min-width: 1023px) {
-  .cover__title {
-    margin-left: 232px;
-    padding-top: 115px;
-  }
-}
-
-@media screen and (min-width: 1279px) {
-  .cover__title {
-    margin-left: 312px;
-    padding-top: 245px;
-  }
-}
-

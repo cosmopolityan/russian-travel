@@ -1,28 +1,13 @@
 .page {
-  /* width: 1280px; */
+  min-width: 320px;
   max-width: 1280px;
-  /* width: 100%; */
-  /* min-height: 320px; */
-  /* overflow-x: hidden; */
-  margin: 0 auto;
+  /* margin: 0 auto; */
+  margin-left: auto;
+  margin-right: auto;
   padding: 0;
   background-color: #2A2C2F;
   box-sizing: border-box;
-  /* background-repeat: repeat; */
 }
-
-/* @media screen and (max-width: 1024px) {
-  .page {
-    width: 1024px;
-  }
-}
-
-
-@media screen and (max-width: 768px) {
-  .page {
-    width: 768px;
-  }
-} */
 
 @media screen and (max-width: 321px) {
   .page {

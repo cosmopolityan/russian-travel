@@ -2,7 +2,7 @@
   margin: 92px 442px 92px 148px;
 }
 
-@media screen and (max-width: 426px) {
+@media screen and (max-width: 767px) {
   .intro {
     margin: 68px 16px 64px 16px;
     max-width: 425px;
@@ -25,6 +25,7 @@
 @media screen and (min-width: 1280px) {
   .intro {
     width: 690px;
+    margin-left: 148px;
   }
 }
 
