@@ -12,7 +12,9 @@
 @media screen and (max-width: calc(424px + 24px*2)) {
   .photo-grid {
     max-width: calc(100% - 16px*2);
-    width: 424px;
+    /* width: 424px; */
+    width: 100%;
+    object-fit: cover;
   }
 }
 
@@ -27,8 +29,10 @@
 @media screen and (min-width: 767px) {
   .photo-grid {
     grid-template-columns: repeat(auto-fill, minmax(352px, 1fr));
-    width: 720px;
+    /* width: 720px; */
     margin-bottom: 88px;
+    width: 100%;
+    object-fit: cover;
   }
 }
 
@@ -36,7 +40,9 @@
   .photo-grid {
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     gap: 14px; /* На макете на 1024px gap = 14px, поправил */
-    width: 932px;
+    /* width: 932px; */
+    width: 100%;
+    object-fit: cover;
   }
 }
 
@@ -45,6 +51,8 @@
     grid-template-columns: repeat(auto-fill, minmax(284px, 1fr));
     gap: 16px; /* На макете на 1280px gap = 16px, поправил */
     margin-bottom: 92px;
-    width: 1184px;
+    /* width: 1184px; */
+    width: 100%;
+    object-fit: cover;
   }
 }
