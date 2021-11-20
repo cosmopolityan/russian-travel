@@ -2,57 +2,60 @@
   display: grid;
   gap: 16px;
   grid-template-columns: repeat(auto-fill, minmax(284px, 1fr));
-  /* margin: 0 auto; */
-  margin: 16px auto 92px;
-  /* margin-bottom: 92px; */
+  margin: 0 auto;
+
   width: calc(100% - 48px*2);
-  justify-items: center;
 }
 
-@media screen and (max-width: calc(424px + 24px*2)) {
-  .photo-grid {
-    max-width: calc(100% - 16px*2);
-    /* width: 424px; */
-    width: 100%;
-    object-fit: cover;
-  }
-}
-
-/* @media screen and (max-width: 426px) {
+@media screen and (max-width: 424px) {
   .photo-grid {
     gap: 12px;
-    width: 284px;
-    margin: 0 16px 64px 16px;
+    margin-bottom: 64px;
   }
-} */
+}
 
-@media screen and (min-width: 767px) {
+@media screen and (max-width: calc(424px + (24px*2))) {
+  .photo-grid {
+    max-width: calc(100% - 16px*2);
+    width: 424px;
+  }
+}
+
+@media screen and (min-width: 425px) and (max-width: 768px) {
+  .photo-grid {
+    margin-bottom: 88px;
+  }
+}
+
+@media screen and (max-width: calc(767px + (48px*2))) {
+  .photo-grid {
+    max-width: calc(100% - 24px*2);
+    width: 768px;
+  }
+}
+
+@media screen and (min-width: 769px) {
+  .photo-grid {
+    margin-bottom: 92px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .photo-grid {
+    grid-template-columns: repeat(auto-fill, minmax(288px, 1fr));
+  }
+}
+
+@media screen and (max-width: 1023px) {
   .photo-grid {
     grid-template-columns: repeat(auto-fill, minmax(352px, 1fr));
-    /* width: 720px; */
-    margin-bottom: 88px;
-    width: 100%;
-    object-fit: cover;
+    gap: 16px;
   }
 }
 
-@media screen and (min-width: 1023px) {
+@media screen and (max-width: 1279px) {
   .photo-grid {
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-    gap: 14px; /* На макете на 1024px gap = 14px, поправил */
-    /* width: 932px; */
-    width: 100%;
-    object-fit: cover;
-  }
-}
-
-@media screen and (min-width: 1280px) {
-  .photo-grid {
-    grid-template-columns: repeat(auto-fill, minmax(284px, 1fr));
-    gap: 16px; /* На макете на 1280px gap = 16px, поправил */
-    margin-bottom: 92px;
-    /* width: 1184px; */
-    width: 100%;
-    object-fit: cover;
+    gap: 14px;
   }
 }

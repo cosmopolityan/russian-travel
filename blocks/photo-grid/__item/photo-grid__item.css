@@ -8,7 +8,7 @@
 
 @media screen and (max-width: 426px) {
   .photo-grid__item  {
-    /* width: 288px;
+    /* max-width: 288px;
     height: 216px; */
     width: 100%;
     object-fit: cover;
@@ -17,7 +17,7 @@
 
 @media screen and (min-width: 767px) {
   .photo-grid__item  {
-    /* width: 352px;
+    /* max-width: 352px;
     height: 264px; */
     width: 100%;
     object-fit: cover;
@@ -27,7 +27,7 @@
 
 @media screen and (min-width: 1023px) {
   .photo-grid__item  {
-    /* width: 300px;
+    /* max-width: 300px;
     height: 225px; */
     width: 100%;
     object-fit: cover;
@@ -36,13 +36,12 @@
 
 @media screen and (min-width: 1280px) {
   .photo-grid__item  {
-    /* width: 284px;
-    height: 213px; */
+    max-width: 284px;
+    /* height: 213px; */
     width: 100%;
     object-fit: cover;
   }
 }
-
 
 
 
