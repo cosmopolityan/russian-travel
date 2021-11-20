@@ -1,0 +1,29 @@
+.place__text {
+  display: grid;
+  align-content: flex-start;
+  gap: 25px;
+}
+
+@media screen and (max-width: 767px) {
+  .place__text {
+    margin: 0 16px;
+  }
+}
+
+@media screen and (min-width: 767px) and (max-width: 1023px) {
+  .place__text {
+    width: 352px;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+  .place__text {
+    width: 456px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .place__text {
+    width: 484px;
+  }
+}
