@@ -1,0 +1,13 @@
+.lead {
+  margin: 0 auto;
+  padding: 0 48px;
+  max-width: 984px;
+
+}
+
+@media screen and (max-width: calc(768px + (48px*2))) {
+  .lead {
+    padding: 0;
+    max-width: 768px;
+  }
+}
