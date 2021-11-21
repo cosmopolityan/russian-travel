@@ -4,28 +4,28 @@
   max-width: 984px;
 }
 
-@media screen and (min-width: 320px) and (max-width: 768px) {
+@media screen and (max-width: calc(768px + (48px*2))) {
   .intro {
-    margin: 64px auto;
+    max-width: 768px;
+    padding: 0 24px;
   }
 }
 
-@media screen and (max-width: calc(424px + 24px*2)) {
+@media screen and (max-width: calc(424px + (24px*2))) {
   .intro {
-    padding: 0 16px;
     max-width: 424px;
+    padding: 0 16px;
   }
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 768px) {
   .intro {
     margin: 88px auto;
   }
 }
 
-@media screen and (max-width: calc(768px + 48px*2)) {
+@media screen and (max-width: 424px) {
   .intro {
-    padding: 0 24px;
-    max-width: 768px;
-    }
+    margin: 68px auto 64px;
+  }
 }

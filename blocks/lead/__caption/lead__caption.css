@@ -4,16 +4,16 @@
   line-height: 14px;
   letter-spacing: 1.5px;
   text-transform: uppercase;
-  max-width: calc(100% - 16px*2);
+  max-width: calc(100% - (16px*2));
 }
 
-@media screen and (max-width: calc(424px + 24px*2)) {
+@media screen and (max-width: calc(424px + (24px*2))) {
   .lead__caption {
     width: 424px;
   }
 }
 
-@media screen and (max-width: calc(768px + 24px*2)) {
+@media screen and (max-width: calc(768px + (24px*2))) {
   .lead__caption {
     width: calc(100% - 24px*2);
   }

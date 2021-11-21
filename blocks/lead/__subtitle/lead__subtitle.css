@@ -3,7 +3,7 @@
   font-size: 30px;
   line-height: 36px;
   text-align: center;
-  width: calc(100% - 16px*2);
+  width: calc(100% - (16px*2));
   max-width: 640px;
 }
 
